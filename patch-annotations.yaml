@@ -3,5 +3,7 @@ spec:
     metadata:
       annotations:
         vault.hashicorp.com/agent-inject: "true"
-        vault.hashicorp.com/agent-inject-secret-username: "crds/data/mysql"
+        vault.hashicorp.com/agent-inject-secret-username: "devsecops/secret-data"
+        vault.hashicorp.com/agent-inject-secret-password: "devsecops/secret-data"
+        vault.hashicorp.com/agent-inject-secret-apikey: "devsecops/secret-data"
         vault.hashicorp.com/role: "phpapp"
